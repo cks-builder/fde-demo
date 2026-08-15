@@ -1,0 +1,15 @@
+{
+  "name": "FDE Ready · P0 Studio",
+  "image": "mcr.microsoft.com/devcontainers/javascript-node:22",
+  "customizations": {
+    "vscode": {
+      "extensions": ["ms-vscode.live-server"],
+      "settings": {
+        "livePreview.defaultPreviewPath": "/index.html",
+        "editor.tabSize": 2
+      }
+    }
+  },
+  "forwardPorts": [3000, 5500],
+  "postAttachCommand": "echo '── FDE READY · P0 STUDIO ── Open index.html, then click the Show Preview icon (top right). Your terminal is real. Your git is real. Everything here counts.'"
+}
