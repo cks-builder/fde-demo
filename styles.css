@@ -9,7 +9,7 @@ body {
 
 /* These selectors target classes now. When you refactor to semantic tags
    in MM03, update them to match (e.g. .top → header). */
-.top {
+header {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -19,14 +19,14 @@ body {
 .site-name { font-weight: 900; letter-spacing: -0.02em; }
 .links a { margin-left: 16px; color: #111; }
 
-.middle {
+main {
   max-width: 640px;
   margin: 0 auto;
   padding: 64px 24px;
 }
 h1 { font-size: 2rem; line-height: 1.2; margin-bottom: 16px; }
 
-.bottom {
+footer {
   border-top: 1px solid #ccc;
   padding: 16px 24px;
   color: #777;
